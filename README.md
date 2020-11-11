@@ -28,5 +28,5 @@ Nick Pettis
 ## Contact
 
 For additional questions, please reach out to me at my Github Profile or email:
-(https://github.com/pettisnick)
-
+# [Github](https://github.com/pettisnick)
+# [Email](pettisnick@gmail.com)
