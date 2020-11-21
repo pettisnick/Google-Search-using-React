@@ -14,8 +14,10 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // Connect to the Mongo DB
+const MONGODB_URI =  process.env.MONGODB_URI || "mongodb://localhost/Google"
+console.log(MONGODB_URI);
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/Google",
+ MONGODB_URI,
   {
     useCreateIndex: true,
     useNewUrlParser: true,
