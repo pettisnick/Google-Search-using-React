@@ -11,7 +11,7 @@ import { List } from "../components/List";
 class Home extends Component {
   state = {
     books: [],
-    query: "",
+    q: "",
     message: "Search For A Book To Begin!"
   };
 
@@ -23,7 +23,7 @@ class Home extends Component {
   };
 
   getBooks = () => {
-    API.getBooks(this.state.query)
+    API.getBooks(this.state.q)
       .then(res =>
         this.setState({
           books: res.data
